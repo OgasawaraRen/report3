@@ -52,34 +52,74 @@ public class Hero {
         }
     }
 
+    /**
+     * 自身の名前を返すgetter。 呼び出された時にnameを返す。
+     * 
+     * @return name :ヒーロー名
+     */
     public String getName() {
         return this.name;
     }
 
+    /**
+     * 自身の名前を設定するsetter。
+     * 
+     * @param _name 設定するヒーロー名
+     */
     public void setName(String _name) {
         this.name = _name;
     }
 
+    /**
+     * 自身のHPを返すgetter。 呼び出された時にhitPointを返す。
+     * 
+     * @return hitpoint :ヒーローのHP
+     */
     public int getHitPoint() {
         return this.hitPoint;
     }
 
+    /**
+     * 自身のHPを設定するsetter。
+     * 
+     * @param _hitPoint 設定するヒーローのHP
+     */
     public void setHitPoint(int _hitPoint) {
         this.hitPoint = _hitPoint;
     }
 
+    /**
+     * 自身の攻撃力を返すgetter。 呼び出された時にattackを返す。
+     * 
+     * @return attack :ヒーローの攻撃力
+     */
     public int getAttack() {
         return this.attack;
     }
 
+    /**
+     * 自身の攻撃力を設定するsetter。
+     * 
+     * @param _attack 設定するヒーローの攻撃力
+     */
     public void setAttack(int _attack) {
         this.attack = _attack;
     }
 
+    /**
+     * 自身の生死状態を返すgetter。 呼び出された時にdeadを返す。
+     * 
+     * @return 死亡している時 ture, 生存している時 false
+     */
     public boolean getDead() {
         return this.dead;
     }
 
+    /**
+     * 自身の生死状態を設定するsetter。
+     * 
+     * @param _dead 設定するヒーローの生死状態
+     */
     public void setDead(boolean _dead) {
         this.dead = _dead;
     }
